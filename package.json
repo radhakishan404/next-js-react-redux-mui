@@ -1,0 +1,36 @@
+{
+    "name": "next-js-react-redux-mui",
+    "version": "0.1.0",
+    "private": true,
+    "main": "index.js",
+    "scripts": {
+        "dev": "NODE_OPTIONS='--inspect' next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@alptugidin/react-circular-progress-bar": "^1.1.0",
+        "@emotion/cache": "^11.11.0",
+        "@emotion/react": "^11.11.1",
+        "@emotion/server": "^11.11.0",
+        "@emotion/styled": "^11.11.0",
+        "@mui/icons-material": "^5.14.18",
+        "@mui/material": "^5.14.18",
+        "@mui/x-data-grid": "^6.18.2",
+        "@reduxjs/toolkit": "^1.9.7",
+        "axios": "^1.6.2",
+        "body-parser": "^1.20.2",
+        "dotenv": "^16.3.1",
+        "next": "14.0.3",
+        "react": "^18",
+        "react-apexcharts": "^1.4.1",
+        "react-date-range": "^1.4.0",
+        "react-dom": "^18",
+        "react-redux": "^8.1.3"
+    },
+    "devDependencies": {
+        "eslint": "^8",
+        "eslint-config-next": "14.0.3"
+    }
+}
